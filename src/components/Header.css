@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.store-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.store-hours {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+  position: relative;
+}
+
+.header-search input {
+  width: 100%;
+  padding: 8px 40px 8px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.mic-icon {
+  position: absolute;
+  right: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.login-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}

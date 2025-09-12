@@ -1,0 +1,45 @@
+.clinic-home {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.clinic-header {
+  background: #edf7fb;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.clinic-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.clinic-services {
+  margin: 20px 0;
+}
+
+.clinic-services h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.clinic-services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.clinic-services li {
+  background: #f2f2f2;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.clinic-footer {
+  margin-top: 40px;
+  color: #666;
+}
