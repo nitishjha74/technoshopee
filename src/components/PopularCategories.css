@@ -1,0 +1,46 @@
+.popular-section {
+  background: #000;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.popular-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  color: #fff;
+}
+
+.popular-slider {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+.popular-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.popular-card {
+  flex: 0 0 auto;
+  text-align: center;
+  width: 120px;
+}
+
+.popular-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #111;
+  padding: 10px;
+}
+
+.popular-card p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #fff;
+}

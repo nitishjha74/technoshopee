@@ -1,0 +1,76 @@
+.brands-section {
+  padding: 2rem;
+}
+
+.brands-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.brands-logos {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.brand {
+  text-align: center;
+}
+
+.brand img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.brand p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Best Selling Phones Section */
+.best-selling {
+  background: linear-gradient(to right, #2c3e50, #34495e);
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.best-selling h2 {
+  margin-bottom: 1rem;
+}
+
+.phone-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.phone-card {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 180px;
+  text-align: center;
+}
+
+.phone-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #00796b;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 5px;
+}

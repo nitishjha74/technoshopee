@@ -1,0 +1,41 @@
+.profile-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.profile-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #008cba;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.profile-card p {
+  margin: 12px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.profile-card strong {
+  color: #008cba;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.loading {
+  font-style: italic;
+  color: #666;
+}

@@ -1,0 +1,45 @@
+.brand-slider-section {
+  padding: 2rem;
+  text-align: center;
+  background: #fff;
+}
+
+.brand-slider-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.brand-slider {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.brand-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.brand-card {
+  flex: 0 0 auto;
+  text-align: center;
+  width: 100px;
+}
+
+.brand-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.brand-card p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}

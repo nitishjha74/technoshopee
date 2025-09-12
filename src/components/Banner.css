@@ -1,0 +1,34 @@
+.banner-section {
+  margin: 20px 0;
+}
+
+.categories-strip {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  background: #000;
+  overflow-x: auto;
+}
+
+.category {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.category img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+  padding: 5px;
+}
+
+.banner-slider img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
