@@ -1,19 +1,19 @@
 import "./AudioBrands.css";
 
-function AudioBrands() {
+fuAudioBrands() {
   return (
     <section className="audio-section">
       {/* 🔹 Audio Brand Logos */}
       <h2>Shop Audio by Brands</h2>
       <div className="brands-logos">
-        <div className="brand"><img src="/public/images/brands/boat.png" alt="boAt" /><p>boAt</p></div>
-        <div className="brand"><img src="/public/images/brands/jbl.png" alt="JBL" /><p>JBL</p></div>
-        <div className="brand"><img src="/public/images/brands/app.avif" alt="Apple" /><p>Apple</p></div>
-        <div className="brand"><img src="/public/images/brands/just.png" alt="just" /><p>Just</p></div>
-        <div className="brand"><img src="/public/images/brands/noise.png" alt="Noise" /><p>Noise</p></div>
-        <div className="brand"><img src="/public/images/brands/sam.avif" alt="Samsung" /><p>Samsung</p></div>
-        <div className="brand"><img src="/public/images/brands/rem.avif" alt="Realme" /><p>Realme</p></div>
-        <div className="brand"><img src="/public/images/brands/one.avif" alt="OnePlus" /><p>OnePlus</p></div>
+        <div className="brand"><img src="/images/brands/boat.png" alt="boAt" /><p>boAt</p></div>
+        <div className="brand"><img src="/images/brands/jbl.png" alt="JBL" /><p>JBL</p></div>
+        <div className="brand"><img src="/images/brands/app.avif" alt="Apple" /><p>Apple</p></div>
+        <div className="brand"><img src="/images/brands/just.png" alt="just" /><p>Just</p></div>
+        <div className="brand"><img src="/images/brands/noise.png" alt="Noise" /><p>Noise</p></div>
+        <div className="brand"><img src="/images/brands/sam.avif" alt="Samsung" /><p>Samsung</p></div>
+        <div className="brand"><img src="/images/brands/rem.avif" alt="Realme" /><p>Realme</p></div>
+        <div className="brand"><img src="/images/brands/one.avif" alt="OnePlus" /><p>OnePlus</p></div>
       </div>
 
       {/* 🔹 Best Selling Audio Products */}
@@ -21,25 +21,25 @@ function AudioBrands() {
         <h2>Newly Launched and Trending</h2>
         <div className="phone-cards">
           <div className="phone-card">
-            <img src="/public/images/audio/aaa.png" alt="Apple AirPods 4" />
+            <img src="/images/audio/aaa.png" alt="Apple AirPods 4" />
             <h3>Apple AirPods 4</h3>
             <p className="price">₹10,999 <span className="old-price">₹12,900</span></p>
           </div>
 
           <div className="phone-card">
-            <img src="/public/images/audio/redmi.jpeg" alt="Redmi Buds 5" />
+            <img src="/images/audio/redmi.jpeg" alt="Redmi Buds 5" />
             <h3>Redmi Buds 5</h3>
             <p className="price">₹2,999 <span className="old-price">₹3,999</span></p>
           </div>
 
           <div className="phone-card">
-            <img src="/public/images/audio/boata.png" alt="boAt Airdopes 141" />
+            <img src="/images/audio/boata.png" alt="boAt Airdopes 141" />
             <h3>boAt Airdopes 141</h3>
             <p className="price">₹1,749 <span className="old-price">₹4,490</span></p>
           </div>
 
           <div className="phone-card">
-            <img src="/public/images/audio/ss.jpeg" alt="Sennheiser Accentum" />
+            <img src="/images/audio/ss.jpeg" alt="Sennheiser Accentum" />
             <h3>Sennheiser Accentum</h3>
             <p className="price">₹12,990</p>
           </div>
