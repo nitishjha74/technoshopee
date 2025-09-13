@@ -2,14 +2,14 @@ import "./PopularCategories.css";
 
 function PopularCategories() {
   const categories = [
-    { name: "Truly Wireless Buds", img: "/public/images/PopularCategories/air.webp" },
-    { name: "Dashcams", img: "/public/images/PopularCategories/dh.avif" },
-    { name: "Vacuum cleaners", img: "/public/images/PopularCategories/vacum.avif" },
-    { name: "Trimmers", img: "/public/images/PopularCategories/trim.webp" },
-    { name: "Neckbands", img: "/public/images/PopularCategories/neckband.webp" },
-    { name: "Power Banks", img: "/public/images/PopularCategories/pb.webp" },
+    { name: "Truly Wireless Buds", img: "/images/PopularCategories/air.webp" },
+    { name: "Dashcams", img: "/images/PopularCategories/dh.avif" },
+    { name: "Vacuum cleaners", img: "/images/PopularCategories/vacum.avif" },
+    { name: "Trimmers", img: "/images/PopularCategories/trim.webp" },
+    { name: "Neckbands", img: "/images/PopularCategories/neckband.webp" },
+    { name: "Power Banks", img: "/images/PopularCategories/pb.webp" },
     { name: "Home Audio Systems", img: "/public/images/PopularCategories/home.webp" },
-    { name: "Massagers", img: "/public/images/PopularCategories/ms.avif" },
+    { name: "Massagers", img: "/images/PopularCategories/ms.avif" },
   ];
 
   return (
