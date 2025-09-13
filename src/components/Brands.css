@@ -5,18 +5,25 @@
 .brands-section h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
+/* Brand Logos */
 .brands-logos {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 2rem;
+  background: beige;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .brand {
   text-align: center;
+  flex: 0 0 auto;
+  width: 80px;
 }
 
 .brand img {
@@ -27,26 +34,27 @@
 
 .brand p {
   margin-top: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
-/* Best Selling Phones Section */
+/* Best Selling Phones */
 .best-selling {
   background: linear-gradient(to right, #2c3e50, #34495e);
   padding: 1.5rem;
   border-radius: 10px;
   color: white;
+  margin-top: 2rem;
 }
 
 .best-selling h2 {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .phone-cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .phone-card {
@@ -54,14 +62,20 @@
   color: black;
   border-radius: 10px;
   padding: 1rem;
-  width: 180px;
   text-align: center;
+  transition: transform 0.2s;
+}
+
+.phone-card:hover {
+  transform: translateY(-5px);
 }
 
 .phone-card img {
   width: 100%;
   border-radius: 6px;
   margin-bottom: 0.5rem;
+  height: 150px;
+  object-fit: contain;
 }
 
 .price {
@@ -73,4 +87,74 @@
   text-decoration: line-through;
   color: gray;
   margin-left: 5px;
+  font-size: 0.85rem;
+}
+
+/* Scrollable Banner Section */
+.scroll-banner {
+  margin-top: 2rem;
+  overflow: hidden;
+  background: #f9f9f9;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+
+.scroll-banner h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.scroll-container {
+  display: flex;
+  gap: 1rem;
+  animation: scroll-left 25s linear infinite;
+  width: max-content;
+}
+
+.scroll-card {
+  min-width: 200px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+  padding: 0.5rem;
+  flex-shrink: 0;
+}
+
+.scroll-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* 🔹 Responsive Fixes */
+@media (max-width: 1024px) {
+  .brands-section h2 { font-size: 1.5rem; }
+  .phone-card img { height: 130px; }
+}
+
+@media (max-width: 768px) {
+  .brands-logos { gap: 1.2rem; }
+  .brand img { width: 50px; height: 50px; }
+  .scroll-card img { height: 150px; }
+}
+
+@media (max-width: 480px) {
+  .brands-section { padding: 1rem; }
+  .brands-logos { gap: 1rem; }
+  .brand { width: 70px; }
+  .brand p { font-size: 0.75rem; }
+  .scroll-card { min-width: 150px; }
+  .scroll-card img { height: 120px; }
 }

@@ -1,10 +1,12 @@
+/* Header Base */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #111;
-  padding: 10px 20px;
+  background: #000000;
+  padding: 20px 30px;
   color: white;
+  position: relative;
 }
 
 .header-left {
@@ -20,14 +22,15 @@
 .store-info {
   display: flex;
   flex-direction: column;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .store-hours {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
 }
 
+/* Search */
 .header-search {
   flex: 1;
   display: flex;
@@ -52,6 +55,7 @@
   cursor: pointer;
 }
 
+/* Right Section */
 .header-right {
   display: flex;
   align-items: center;
@@ -70,4 +74,79 @@
   color: white;
   text-decoration: none;
   font-size: 14px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #111;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #333;
+}
+
+.mobile-menu a:last-child {
+  border-bottom: none;
+}
+
+/* 🔹 Responsive */
+@media (max-width: 992px) {
+  .store-info {
+    display: none; /* Hide store info on tablet */
+  }
+
+  .header-search {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-search {
+    display: none; /* Hide search bar on small screens */
+  }
+
+  .menu-toggle {
+    display: block; /* Show menu icon */
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 8px 12px;
+  }
+
+  .logo {
+    height: 35px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+
+  .login-link {
+    display: none; /* Hide login text, keep only menu */
+  }
+
+  .mobile-menu {
+    display: flex; /* Show when toggle active */
+  }
 }
