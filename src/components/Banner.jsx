@@ -11,35 +11,35 @@ function Banner() {
       {/* Category Strip */}
       <div className="categories-strip">
         <div className="category">
-          <img src="public/images/iphone1.jpeg" alt="Smartphones" />
+          <img src="/images/smarti.avif" alt="Smartphones" />
           <p>Smartphones</p>
         </div>
         <div className="category">
-          <img src="/images/watch.png" alt="Smart Watches" />
+          <img src="/images/smartw.avif" alt="Smart Watches" />
           <p>Smart Watches</p>
         </div>
         <div className="category">
-          <img src="/images/tv.png" alt="Android TVs" />
+          <img src="/images/smarttv.webp" alt="Android TVs" />
           <p>Android TVs</p>
         </div>
         <div className="category">
-          <img src="/public/images/accessories.png" alt="Accessories" />
+          <img src="/images/asso.webp" alt="Accessories" />
           <p>Accessories</p>
         </div>
         <div className="category">
-          <img src="/public/images/tablet.png" alt="Tablets" />
+          <img src="/images/tablet.png" alt="Tablets" />
           <p>Tablets</p>
         </div>
         <div className="category">
-          <img src="/public/images/gift.png" alt="Gift Cards" />
+          <img src="/images/gift.png" alt="Gift Cards" />
           <p>Gift Cards</p>
         </div>
         <div className="category">
-          <img src="/public/images/gadget.png" alt="Smart Gadgets" />
+          <img src="/images/gadget.png" alt="Smart Gadgets" />
           <p>Smart Gadgets</p>
         </div>
         <div className="category">
-          <img src="/public/images/laptop.png" alt="Laptops" />
+          <img src="/images/laptop.png" alt="Laptops" />
           <p>Laptops</p>
         </div>
       </div>
@@ -53,13 +53,22 @@ function Banner() {
         className="banner-slider"
       >
         <SwiperSlide>
-          <img src="/public/images/banner1.jpg" alt="Banner 1" />
+          <img src="/images/banners1.webp" alt="Banner 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/public/images/banner2.jpeg" alt="Banner 2" />
+          <img src="/images/bs2.webp" alt="Banner 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/public/images/banner1.jpg" alt="Banner 3" />
+          <img src="/images/bs3.webp" alt="Banner 3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/images/bs4.webp" alt="Banner 4" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/images/bs5.webp" alt="Banner 5" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/images/bs7.webp" alt="Banner 6" />
         </SwiperSlide>
       </Swiper>
     </div>

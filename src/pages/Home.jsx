@@ -9,32 +9,13 @@ import PopularCategories from "../components/PopularCategories";
 import ExploreBrands from "../components/ExploreBrands";
 import BrandSlider from "../components/BrandSlider";
 import "./Home.css";
+import AudioBrands from "../components/AudioBrands";
+import Watch from "../components/Watch";
 
 function Home() {
-   const audioBrands = [
-    { name: "Samsung", img: "/brands/samsung.png" },
-    { name: "Realme", img: "/brands/realme.png" },
-    { name: "Apple", img: "/brands/apple.png" },
-    { name: "OnePlus", img: "/brands/oneplus.png" },
-    { name: "boAt", img: "/brands/boat.png" },
-    { name: "Noise", img: "/brands/noise.png" },
-    { name: "Promate", img: "/brands/promate.png" },
-    { name: "Mivi", img: "/brands/mivi.png" },
-    { name: "Just Corseca", img: "/brands/corseca.png" },
-    { name: "JBL", img: "/brands/jbl.png" },
-  ];
+  
+  
 
-  const watchBrands = [
-    { name: "Samsung", img: "/brands/samsung.png" },
-    { name: "Apple", img: "/brands/apple.png" },
-    { name: "Pebble", img: "/brands/pebble.png" },
-    { name: "Conekt", img: "/brands/conekt.png" },
-    { name: "boAt", img: "/brands/boat.png" },
-    { name: "Inbase", img: "/brands/inbase.png" },
-    { name: "Noise", img: "/brands/noise.png" },
-    { name: "Maxima", img: "/brands/maxima.png" },
-    { name: "OnePlus", img: "/brands/oneplus.png" },
-  ];
   return (
     <div>
       <Header />
@@ -52,20 +33,12 @@ function Home() {
         {/* 🔹 New Popular Categories Section */}
         <PopularCategories />
         {/* 🔹 Brands Section */}
-        <ExploreBrands />
+        {/* <ExploreBrands /> */}
         {/* 🔹 Audio Brands */}
-      <BrandSlider title="Explore Top Audio Brands" brands={audioBrands} />
+         <AudioBrands/>
 
       {/* 🔹 Smart Watch Brands */}
-      <BrandSlider title="Explore Top Smart Watches" brands={watchBrands} />
-
-        {/* 🔹 Featured Products */}
-        <section className="products-section">
-          <h2>Best Sellers</h2>
-          <Products />
-        </section>
-
-       
+         <Watch />
 
         {/* 🔹 Services Section */}
         <section className="services-section">
