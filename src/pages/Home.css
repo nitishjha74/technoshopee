@@ -1,68 +1,63 @@
 .home-page {
   font-family: Arial, sans-serif;
   background: #ffffff;
-}
-
-.search-section {
-  display: flex;
-  justify-content: center;
   padding: 20px;
 }
 
-.search-box {
-  width: 50%;
-  padding: 10px;
-  font-size: 16px;
-  border: 2px solid #ddd;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-}
-
-.search-btn {
-  padding: 10px 20px;
-  background: #ff4c24;
-  border: none;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-}
-
-.categories-section,
-.products-section,
-.about-section,
 .services-section {
-  padding: 40px 20px;
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.categories-section h2,
-.products-section h2,
-.about-section h2,
 .services-section h2 {
+  text-align: center;
   margin-bottom: 20px;
   font-size: 28px;
-  color: #333;
 }
 
-.about-section p {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 18px;
-  color: #555;
-}
-
+/* Grid layout */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
+/* Service card styling */
 .service-card {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   font-size: 18px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(118, 90, 90, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(118, 90, 90, 0.2);
+}
+
+/* Responsive font for smaller devices */
+@media (max-width: 768px) {
+  .services-section h2 {
+    font-size: 24px;
+  }
+
+  .service-card {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-section h2 {
+    font-size: 20px;
+  }
+
+  .service-card {
+    font-size: 14px;
+    padding: 12px;
+  }
 }
