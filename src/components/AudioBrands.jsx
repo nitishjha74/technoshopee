@@ -45,7 +45,7 @@ function AudioBrands() {
           </div>
 
           <div className="phone-card">
-            <img src="/public/images/audio/boata.webp" alt="Redmi Buds 6" />
+            <img src="/images/audio/boata.webp" alt="Redmi Buds 6" />
             <h3>Redmi Buds 6</h3>
             <p className="price">₹2,999 <span className="old-price">₹4,999</span></p>
           </div>

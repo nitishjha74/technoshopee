@@ -8,7 +8,7 @@ function PopularCategories() {
     { name: "Trimmers", img: "/images/PopularCategories/trim.webp" },
     { name: "Neckbands", img: "/images/PopularCategories/neckband.webp" },
     { name: "Power Banks", img: "/images/PopularCategories/pb.webp" },
-    { name: "Home Audio Systems", img: "/public/images/PopularCategories/home.webp" },
+    { name: "Home Audio Systems", img: "/images/PopularCategories/home.webp" },
     { name: "Massagers", img: "/images/PopularCategories/ms.avif" },
   ];
 

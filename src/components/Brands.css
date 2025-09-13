@@ -90,6 +90,18 @@
   font-size: 0.85rem;
 }
 
+/* Responsive for mobile: show 2 cards per row */
+@media (max-width: 480px) {
+  .phone-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .phone-card img {
+    height: 120px; /* smaller height for mobile */
+  }
+}
+
+
 /* Scrollable Banner Section */
 .scroll-banner {
   margin-top: 2rem;
@@ -141,7 +153,7 @@
 /* 🔹 Responsive Fixes */
 @media (max-width: 1024px) {
   .brands-section h2 { font-size: 1.5rem; }
-  .phone-card img { height: 130px; }
+  .phone-card img { height: 120px; }
 }
 
 @media (max-width: 768px) {
