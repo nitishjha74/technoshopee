@@ -1,78 +1,67 @@
 import "./Watch.css";
 
 function Watch() {
+  const brands = [
+    { name: "Samsung", img: "/images/brands/sam.avif" },
+    { name: "Apple", img: "/images/brands/app.avif" },
+    { name: "Pebble", img: "/images/brands/peble.avif" },
+    { name: "Conekt", img: "/images/brands/coc.png" },
+    { name: "boAt", img: "/images/brands/boat.png" },
+    { name: "Inbase", img: "/images/brands/inb.png" },
+    { name: "Noise", img: "/images/brands/noise.png" },
+    { name: "Maxima", img: "/images/brands/max.png" },
+    { name: "OnePlus", img: "/images/brands/one.avif" },
+  ];
+
+  const watches = [
+    { img: "/images/mobile/apple.png", title: "Apple iPhone 16 pro 128GB", price: "₹103900.00", oldPrice: "₹119900.00" },
+    { img: "/images/mobile/app.png", title: "Apple iPhone 15 128GB Pink", price: "₹52999.00", oldPrice: "₹69900.00" },
+    { img: "/images/mobile/oppo.png", title: "Oppo K12X 5G 6GB 128GB", price: "₹11999.00", oldPrice: "₹12999.00" },
+    { img: "/images/mobile/redmi.png", title: "Redmi Note 14 5G 6GB 128GB", price: "₹16499.00", oldPrice: "₹3,999" },
+    { img: "/images/mobile/opn.png", title: "Oppo Reno 13 5G 8GB 128GB", price: "₹32999.00", oldPrice: "₹1999.00" },
+    { img: "/images/mobile/oppor.png", title: "Oppo Reno 13 Pro 5G 12GB", price: "₹45999.00", oldPrice: "₹54999.00" },
+  ];
+
+  const scrollImages = [
+    "/images/scrollcards/a9.png", "/images/scrollcards/a10.png",
+    "/images/scrollcards/a12.png", "/images/scrollcards/a3.png",
+    "/images/scrollcards/a9.png", "/images/scrollcards/a10.png",
+    "/images/scrollcards/a12.png", "/images/scrollcards/a3.png",
+  ];
+
   return (
     <section className="watch-section">
-      {/* 🔹 Watch Brands */}
       <h2>Shop Smart Watches by Brands</h2>
       <div className="watch-logos">
-        <div className="brand"><img src="/images/brands/sam.avif" alt="Samsung" /><p>Samsung</p></div>
-        <div className="brand"><img src="/images/brands/app.avif" alt="Apple" /><p>Apple</p></div>
-        <div className="brand"><img src="/images/brands/peble.avif" alt="Pebble" /><p>Pebble</p></div>
-        <div className="brand"><img src="/images/brands/coc.png" alt="Conekt" /><p>Conekt</p></div>
-        <div className="brand"><img src="/images/brands/boat.png" alt="boAt" /><p>boAt</p></div>
-        <div className="brand"><img src="/images/brands/inb.png" alt="Inbase" /><p>Inbase</p></div>
-        <div className="brand"><img src="/images/brands/noise.png" alt="Noise" /><p>Noise</p></div>
-        <div className="brand"><img src="/images/brands/max.png" alt="Maxima" /><p>Maxima</p></div>
-        <div className="brand"><img src="/images/brands/one.avif" alt="OnePlus" /><p>OnePlus</p></div>
+        {brands.map((brand, idx) => (
+          <div key={idx} className="brand">
+            <img src={brand.img} alt={brand.name} />
+            <p>{brand.name}</p>
+          </div>
+        ))}
       </div>
 
-      {/* 🔹 Best Selling Smart Watches */}
       <div className="best-selling">
         <h2>Top-Rated for Performance</h2>
         <div className="watch-cards">
-          <div className="watch-card">
-            <img src="/images/mobile/apple.png" alt="Samsung Watch" />
-            <h3>Apple iPhone 16 pro 128GB </h3>
-            <p className="price">₹103900.00 <span className="old-price">₹119900.00</span></p>
-          </div>
-
-          <div className="watch-card">
-            <img src="/images/mobile/app.png" alt="Samsung Watch" />
-            <h3>Apple iPhone 15 128GB Pink</h3>
-            <p className="price">₹52999.00 <span className="old-price">₹69900.00</span></p>
-          </div>
-
-          <div className="watch-card">
-            <img src="/images/mobile/oppo.png" alt="Apple Watch" />
-            <h3>Oppo K12X 5G 6GB 128GB </h3>
-            <p className="price">₹11999.00 <span className="old-price">₹12999.00</span></p>
-          </div>
-
-          <div className="watch-card">
-            <img src="/images/mobile/redmi.png" alt="Noise" />
-            <h3>Redmi Note 14 5G 6GB 128GB</h3>
-            <p className="price">₹16499.00 <span className="old-price">₹3,999</span></p>
-          </div>
-
-          <div className="watch-card">
-            <img src="/images/mobile/opn.png" alt="Pebble" />
-            <h3>Oppo Reno 13 5G 8GB 128GB</h3>
-            <p className="price">₹32999.004 <span className="old-price">₹1999.00</span></p>
-          </div>
-
-          <div className="watch-card">
-            <img src="/images/mobile/oppor.png" alt="OnePlus Watch" />
-            <h3>Oppo Reno 13 Pro 5G 12GB</h3>
-            <p className="price">₹45999.00 <span className="old-price">₹54999.00</span></p>
-          </div>
+          {watches.map((watch, idx) => (
+            <div key={idx} className="watch-card">
+              <img src={watch.img} alt={watch.title} />
+              <h3>{watch.title}</h3>
+              <p className="price">{watch.price} <span className="old-price">{watch.oldPrice}</span></p>
+            </div>
+          ))}
         </div>
       </div>
 
-      {/* 🔹 Hot Deals Scrollable Cards */}
       <div className="scroll-banner">
         <h2>Hot Deals</h2>
         <div className="scroll-container">
-          <div className="scroll-card"><img src="/images/scrollcards/a9.png" alt="Smart Watch" /></div>
-          <div className="scroll-card"><img src="/images/scrollcards/a10.png" alt="Apple Watch" /></div>
-          <div className="scroll-card"><img src="/images/scrollcards/a12.png" alt="Noise Watch" /></div>
-          <div className="scroll-card"><img src="/images/scrollcards/a3.png" alt="Pebble Watch" /></div>
-
-          {/* 🔁 Duplicates for infinite scroll */}
-          <div className="scroll-card"><img src="/images/scrollcards/a9.png" alt="Smart Watch" /></div>
-          <div className="scroll-card"><img src="/images/scrollcards/a10.png" alt="Apple Watch" /></div>
-          <div className="scroll-card"><img src="/images/scrollcards/a12.png" alt="Noise Watch" /></div>
-          <div className="scroll-card"><img src="/images/scrollcards/a3.png" alt="Pebble Watch" /></div>
+          {scrollImages.map((img, idx) => (
+            <div key={idx} className="scroll-card">
+              <img src={img} alt="Smart Watch" />
+            </div>
+          ))}
         </div>
       </div>
     </section>
