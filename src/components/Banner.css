@@ -8,8 +8,8 @@
   justify-content: center;
   gap: 30px;
   padding: 10px;
-  background: #000;
-  margin: 0 20px;
+  background: #000000;
+ 
   overflow-x: auto;
   scrollbar-width: none; /* Firefox */
 }

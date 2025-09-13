@@ -155,7 +155,6 @@
   }
   .watch-section h2 {
     font-size: 20px;
-    text-align: center;
   }
   .watch-card img {
     height: 140px;
@@ -166,6 +165,7 @@
   }
 }
 
+/* 🔹 Mobile manual scroll for brand logos */
 @media (max-width: 480px) {
   .watch-section {
     padding: 20px 12px;
@@ -173,11 +173,19 @@
   .watch-section h2 {
     font-size: 18px;
   }
+
   .watch-logos {
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 12px;
   }
+  .watch-logos::-webkit-scrollbar {
+    display: none;
+  }
+
   .watch-logos .brand {
+    flex: 0 0 auto;
     width: 80px;
     padding: 8px;
   }
@@ -185,6 +193,7 @@
     width: 45px;
     height: 45px;
   }
+
   .watch-card {
     padding: 10px;
   }

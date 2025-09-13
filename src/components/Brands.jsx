@@ -24,27 +24,27 @@ function Brands() {
         <h2>Best Selling Phones</h2>
         <div className="phone-cards">
           <div className="phone-card">
-            <img src="/images/selling/smg.webp" alt="Samsung" />
+            <img src="/images/Selling/smg.webp" alt="Samsung" />
             <h3>Samsung Galaxy A17 5G</h3>
             <p className="price">₹19,499 <span className="old-price">₹23,499</span></p>
           </div>
           <div className="phone-card">
-            <img src="/images/selling/gp.avif" alt="Pixel" />
+            <img src="/images/Selling/gp.avif" alt="Pixel" />
             <h3>Google Pixel 10</h3>
             <p className="price">₹62,122 <span className="old-price">₹70,999</span></p>
           </div>
           <div className="phone-card">
-            <img src="/images/selling/redmin.webp" alt="Redmi" />
+            <img src="/images/Selling/redmin.webp" alt="Redmi" />
             <h3>Redmi 15 5G 6GB 128GB</h3>
             <p className="price">₹15,999 <span className="old-price">₹18,999</span></p>
           </div>
           <div className="phone-card">
-            <img src="/images/selling/vivo.webp" alt="Vivo" />
+            <img src="/images/Selling/vivo.webp" alt="Vivo" />
             <h3>Vivo V60 5G</h3>
             <p className="price">₹33,499 <span className="old-price">₹41,999</span></p>
           </div>
           <div className="phone-card">
-            <img src="/images/selling/poco.webp" alt="Poco" />
+            <img src="/images/Selling/poco.webp" alt="Poco" />
             <h3>POCO C71</h3>
             <p className="price">₹6,499 <span className="old-price">₹8,999</span></p>
           </div>
