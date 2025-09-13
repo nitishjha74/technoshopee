@@ -56,20 +56,20 @@ function AudioBrands() {
       <div className="scroll-banner">
         <h2>Hot Deals</h2>
         <div className="scroll-container">
-          <div className="scroll-card"><img src="/public/images/scrollcards/a8.png" alt="Hot Deal 1" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a2.png" alt="Hot Deal 2" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a3.png" alt="Hot Deal 3" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a4.png" alt="Hot Deal 4" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a8.png" alt="Hot Deal 1" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a2.png" alt="Hot Deal 2" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a3.png" alt="Hot Deal 3" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a4.png" alt="Hot Deal 4" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a8.png" alt="Hot Deal 1" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a3.png" alt="Hot Deal 3" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a4.png" alt="Hot Deal 4" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a8.png" alt="Hot Deal 1" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a2.png" alt="Hot Deal 2" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a3.png" alt="Hot Deal 3" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a4.png" alt="Hot Deal 4" /></div>
 
           {/* 🔁 duplicate items for seamless loop */}
-          <div className="scroll-card"><img src="/public/images/scrollcards/a1.png" alt="Hot Deal 1" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a6.png" alt="Hot Deal 2" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a7.png" alt="Hot Deal 1" /></div>
-          <div className="scroll-card"><img src="/public/images/scrollcards/a8.png" alt="Hot Deal 2" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a1.png" alt="Hot Deal 1" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a6.png" alt="Hot Deal 2" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a7.png" alt="Hot Deal 1" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a8.png" alt="Hot Deal 2" /></div>
+          <div className="scroll-card"><img src="/images/scrollcards/a2.png" alt="Hot Deal 2" /></div>
         </div>
       </div>
     </section>

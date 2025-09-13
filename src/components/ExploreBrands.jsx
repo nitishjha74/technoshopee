@@ -6,17 +6,17 @@ function Brands() {
       {/* 🔹 Brand Logos */}
       <h2>explore brands by Brands</h2>
       <div className="brands-logos">
-        <div className="brand"><img src="/public/images/brands/sam.avif" alt="Samsung" /><p>Samsung</p></div>
-        <div className="brand"><img src="/public/images/brands/op.avif" alt="Oppo" /><p>Oppo</p></div>
-        <div className="brand"><img src="/public/images/brands/itel.avif" alt="Itel" /><p>Itel</p></div>
-        <div className="brand"><img src="/public/images/brands/nokia.avif" alt="Nokia" /><p>Nokia</p></div>
-        <div className="brand"><img src="/public/images/brands/rem.avif" alt="Realme" /><p>Realme</p></div>
-        <div className="brand"><img src="/public/images/brands/app.avif" alt="Apple" /><p>Apple</p></div>
-        <div className="brand"><img src="/public/images/brands/xio.avif" alt="Xiaomi" /><p>Xiaomi</p></div>
-        <div className="brand"><img src="/public/images/brands/one.avif" alt="OnePlus" /><p>OnePlus</p></div>
-        <div className="brand"><img src="/public/images/brands/techno.avif" alt="Tecno" /><p>Tecno</p></div>
-        <div className="brand"><img src="/public/images/brands/vivo.avif" alt="Vivo" /><p>Vivo</p></div>
-        <div className="brand"><img src="/public/images/brands/gp.avif" alt="Google Pixel" /><p>Google Pix</p></div>
+        <div className="brand"><img src="/images/brands/sam.avif" alt="Samsung" /><p>Samsung</p></div>
+        <div className="brand"><img src="/images/brands/op.avif" alt="Oppo" /><p>Oppo</p></div>
+        <div className="brand"><img src="/images/brands/itel.avif" alt="Itel" /><p>Itel</p></div>
+        <div className="brand"><img src="/images/brands/nokia.avif" alt="Nokia" /><p>Nokia</p></div>
+        <div className="brand"><img src="/images/brands/rem.avif" alt="Realme" /><p>Realme</p></div>
+        <div className="brand"><img src="/images/brands/app.avif" alt="Apple" /><p>Apple</p></div>
+        <div className="brand"><img src="/images/brands/xio.avif" alt="Xiaomi" /><p>Xiaomi</p></div>
+        <div className="brand"><img src="/images/brands/one.avif" alt="OnePlus" /><p>OnePlus</p></div>
+        <div className="brand"><img src="/images/brands/techno.avif" alt="Tecno" /><p>Tecno</p></div>
+        <div className="brand"><img src="/images/brands/vivo.avif" alt="Vivo" /><p>Vivo</p></div>
+        <div className="brand"><img src="/images/brands/gp.avif" alt="Google Pixel" /><p>Google Pix</p></div>
       </div>
 
       {/* 🔹 Best Selling Phones */}

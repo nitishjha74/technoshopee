@@ -10,7 +10,7 @@ function Header() {
     <header className="header">
       {/* Left: Logo & Store Info */}
       <div className="header-left">
-        <img src="/public/images/technoshopee.png" alt="Logo" className="logo" />
+        <img src="/images/technoshopee.png" alt="Logo" className="logo" />
         <div className="store-info">
           <span className="store-hours">72 Hours</span>
           <span className="store-pincode">847301</span>
