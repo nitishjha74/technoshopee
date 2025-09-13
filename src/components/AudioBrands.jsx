@@ -1,6 +1,6 @@
 import "./AudioBrands.css";
 
-fuAudioBrands() {
+function AudioBrands() {
   return (
     <section className="audio-section">
       {/* 🔹 Audio Brand Logos */}
